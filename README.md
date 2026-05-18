@@ -69,25 +69,58 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
-### 🕌 Halal / Shariah Audit For Muslim Investors
+### Dashboard Dark / Light
 
-![Shariah Audit](screenshots/shariah-audit.png)
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/dashboard-dark.png" alt="InvestAtlas dashboard in dark mode" width="100%">
+    </td>
+    <td width="50%">
+      <img src="screenshots/dashboard-light.png" alt="InvestAtlas dashboard in light mode" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dark mode</strong></td>
+    <td align="center"><strong>Light mode</strong></td>
+  </tr>
+</table>
+
+### Halal / Shariah Audit For Muslim Investors
+
+<p align="center">
+  <img src="screenshots/shariah-audit.png" alt="Shariah audit asset universe" width="900">
+</p>
 
 The Shariah audit area is designed for Muslim investors who want clearer visibility into Halal/Shariah-oriented asset screening. It is informational only and does not replace qualified scholarly advice.
 
-### 🌍 Tax Awareness
+### Analytics Allocation
 
-![Tax and Purification](screenshots/tax-and-purification.png)
+<p align="center">
+  <img src="screenshots/analytics-allocation.png" alt="Analytics allocation breakdown" width="900">
+</p>
+
+### Tax & Purification
+
+<p align="center">
+  <img src="screenshots/tax-and-purification.png" alt="Tax and purification overview" width="820">
+</p>
 
 The tax area is positioned as country-aware tax awareness. A user should be able to use their own country/residence assumptions instead of being limited to one country.
 
-### ⚙️ Settings
+### Settings
 
-![Settings](screenshots/settings.png)
+<p align="center">
+  <img src="screenshots/settings.png" alt="Settings and app preferences" width="820">
+</p>
 
-### 📱 Mobile Navigation
+### Mobile Preview
 
-![Mobile Navigation](screenshots/mobile-navigation.png)
+<p align="center">
+  <img src="screenshots/mobile-dashboard.png" alt="Mobile dashboard" width="260">
+  &nbsp;&nbsp;
+  <img src="screenshots/mobile-navigation.png" alt="Mobile quick navigation" width="260">
+</p>
 
 ## 🛠️ Tech Stack Overview
 
