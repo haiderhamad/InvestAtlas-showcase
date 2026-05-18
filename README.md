@@ -72,16 +72,16 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 ### Product Posters
 
 <p align="center">
-  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas light and dark mode product comparison" width="760">
+  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas light and dark mode product comparison" width="640">
 </p>
 
 <table>
   <tr>
-    <td width="50%">
-      <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas dark mode product poster" width="100%">
+    <td width="50%" align="center">
+      <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas dark mode product poster" width="88%">
     </td>
-    <td width="50%">
-      <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas light mode overview poster" width="100%">
+    <td width="50%" align="center">
+      <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas light mode overview poster" width="88%">
     </td>
   </tr>
   <tr>
@@ -91,30 +91,13 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 </table>
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas light mode analytics poster" width="760">
+  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas light mode analytics poster" width="640">
 </p>
-
-### Dashboard Dark / Light
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/dashboard-dark.png" alt="InvestAtlas dashboard in dark mode" width="100%">
-    </td>
-    <td width="50%">
-      <img src="screenshots/dashboard-light.png" alt="InvestAtlas dashboard in light mode" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Dark mode</strong></td>
-    <td align="center"><strong>Light mode</strong></td>
-  </tr>
-</table>
 
 ### Halal / Shariah Audit For Muslim Investors
 
 <p align="center">
-  <img src="screenshots/shariah-audit.png" alt="Shariah audit asset universe" width="900">
+  <img src="screenshots/shariah-audit.png" alt="Shariah audit asset universe" width="760">
 </p>
 
 The Shariah audit area is designed for Muslim investors who want clearer visibility into Halal/Shariah-oriented asset screening. It is informational only and does not replace qualified scholarly advice.
@@ -122,13 +105,13 @@ The Shariah audit area is designed for Muslim investors who want clearer visibil
 ### Analytics Allocation
 
 <p align="center">
-  <img src="screenshots/analytics-allocation.png" alt="Analytics allocation breakdown" width="900">
+  <img src="screenshots/analytics-allocation.png" alt="Analytics allocation breakdown" width="760">
 </p>
 
 ### Tax & Purification
 
 <p align="center">
-  <img src="screenshots/tax-and-purification.png" alt="Tax and purification overview" width="820">
+  <img src="screenshots/tax-and-purification.png" alt="Tax and purification overview" width="700">
 </p>
 
 The tax area is positioned as country-aware tax awareness. A user should be able to use their own country/residence assumptions instead of being limited to one country.
@@ -136,15 +119,7 @@ The tax area is positioned as country-aware tax awareness. A user should be able
 ### Settings
 
 <p align="center">
-  <img src="screenshots/settings.png" alt="Settings and app preferences" width="820">
-</p>
-
-### Mobile Preview
-
-<p align="center">
-  <img src="screenshots/mobile-dashboard.png" alt="Mobile dashboard" width="260">
-  &nbsp;&nbsp;
-  <img src="screenshots/mobile-navigation.png" alt="Mobile quick navigation" width="260">
+  <img src="screenshots/settings.png" alt="Settings and app preferences" width="700">
 </p>
 
 ## 🛠️ Tech Stack Overview
