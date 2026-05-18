@@ -69,6 +69,31 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
+### Product Posters
+
+<p align="center">
+  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas light and dark mode product comparison" width="760">
+</p>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas dark mode product poster" width="100%">
+    </td>
+    <td width="50%">
+      <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas light mode overview poster" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dark mode showcase</strong></td>
+    <td align="center"><strong>Light mode showcase</strong></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas light mode analytics poster" width="760">
+</p>
+
 ### Dashboard Dark / Light
 
 <table>
