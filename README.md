@@ -2,43 +2,44 @@
 
 **A Halal/Shariah-first investment portfolio app for Muslim investors.**
 
-This is a public showcase repository. The production source code is kept private.
+InvestAtlas is a public Demo/Showcase built with production-quality engineering. The production source code remains private; this repository documents the product and its release journey.
 
 ## 🔎 What Is InvestAtlas?
 
-InvestAtlas is a web app prototype for Muslim investors who want to understand whether their portfolio is Halal/Shariah-compliant, what may need review, and what purification amount may be needed for impure income portions.
+InvestAtlas helps Muslim investors understand what a transparent, implemented screening methodology says about their portfolio: compliant, non-compliant, review required, or insufficient data. Missing evidence never becomes a positive result.
 
-Around that core, it combines portfolio tracking, allocation analytics, country-aware tax awareness, AI-assisted strategy analysis, savings-plan planning, reports, and mobile/desktop portfolio views.
+Around that trust-first core, the app combines portfolio tracking, allocation analytics, country-aware tax awareness, technical strategy tools, purification support, optional AI interpretation, and bilingual desktop/mobile experiences.
+
+Current public release: **v1.1.0 — Core Integrity**
 
 ## 🧭 Product Priorities
 
 | Priority | Purpose |
 | --- | --- |
-| 🕌 Halal / Shariah Compliance | Track what appears compliant, what needs review, and what may be non-compliant for Muslim investors |
-| 🧼 Purification / Bereinigung | Estimate impure portions and approximate purification/donation amounts |
-| 🤖 AI Strategy Analysis | Explain portfolio structure, momentum, risk, SMA signals, and strategy results through user-owned AI providers |
+| 🕌 Halal / Shariah Awareness | Distinguish compliant, non-compliant, review-required, and insufficient-data results |
+| 🧼 Purification | Calculate only when the required inputs are available; keep known zero separate from missing data |
+| 🤖 AI Interpretation | Explain sourced or calculated information through optional user-owned AI providers without inventing fundamentals |
 | 🎯 Savings-Plan Planning | Use budget, allocation, and all-time-high drawdown context to plan more cautious or more aggressive DCA-style buys |
 
 ## ✨ Main Highlights
 
 | Feature | Purpose |
 | --- | --- |
-| 🕌 Shariah Audit | Help Muslim investors review assets through a Halal/Shariah-conscious lens |
-| 🧼 Purification | Show approximate purification amounts for non-permissible income portions |
+| 🕌 Shariah Audit | Use explicit evidence states and surface uncertainty instead of silently treating missing data as Halal |
+| 🧼 Purification | Show a result only when the required financial inputs are known |
 | 📊 Portfolio Dashboard | See total wealth, performance, allocation, and top holdings |
 | 💼 Multi-Asset Tracking | Track stocks, ETFs, crypto, metals, and cash-oriented positions |
 | 📈 Analytics | Review investments, asset classes, regions, sectors, volatility, and returns |
 | 🌍 Tax Awareness | Use a country-aware tax profile so the user can work with their own country assumptions |
 | 🧪 Strategy Lab | Explore SMA, Dual-SMA, momentum, Golden Cross, Death Cross, and backtesting concepts |
 | 🎯 Crypto Plan | Plan savings/DCA allocation from budget, ATH drawdown, and AI-assisted reasoning |
-| 🤖 Ask AI | Connect a user-provided AI provider for optional portfolio, strategy, and savings-plan explanations |
-| 📱 Mobile UI | Use core portfolio views from mobile screens |
+| 🤖 Ask AI | Connect a user-owned AI provider through masked, server-managed key metadata |
+| ☁️ Cloud or Local | Use Firebase as the signed-in cloud path or an isolated anonymous Local Workspace |
+| 🌐 Bilingual UI | Use English/LTR or Arabic/RTL across desktop and mobile |
 
 ## 🤖 Ask AI With User-Owned API Keys
 
-InvestAtlas is designed so each user can connect their own AI provider key for AI features.
-
-The app should not depend on one public global AI key in this phase. Each user brings their own key, keeps usage under their own provider account, and can use providers that offer free or free-tier API access.
+InvestAtlas does not depend on a shared public AI key. A signed-in user can optionally connect a supported provider. Keys are sent to authenticated server routes, stored encrypted in the user's cloud data, and returned to the browser only as masked metadata.
 
 Possible providers:
 
@@ -48,18 +49,18 @@ Possible providers:
 | Groq | Fast inference with documented free-plan limits |
 | OpenRouter | Access to many models, including free model routes where available |
 
-AI features can support portfolio explanations, allocation summaries, risk interpretation, strategy notes, momentum review, SMA crossover interpretation, savings-plan reasoning, and transaction/import assistance. AI output is informational only and must not be treated as financial advice.
+AI can explain existing portfolio information, allocation, risk, strategy calculations, momentum, SMA crossovers, and planning context. AI output is interpretation—not sourced financial data—and must not be treated as financial advice.
 
 ## 🚀 How To Start
 
 1. Open the InvestAtlas demo link.
 2. Create an account or sign in.
 3. Go to **Settings → AI Providers**.
-4. Add your own API key from Gemini, Groq, OpenRouter, or another supported provider.
+4. Add your own API key from a supported provider.
 5. Test and save the provider.
 6. Use **Ask AI**, **Strategy**, **Crypto Plan**, or AI-assisted import features.
 
-The AI features only work when the user adds their own provider key. InvestAtlas does not include a shared public AI key in this showcase phase.
+The core portfolio Demo remains usable without an AI key.
 
 ## 🧪 Strategy And Savings-Plan Intelligence
 
@@ -69,58 +70,54 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
-### Product Posters
+### v1.1 Shariah Trust States
 
 <p align="center">
-  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas light and dark mode product comparison" width="640">
+  <img src="screenshots/v1.1-shariah-trust-states.png" alt="InvestAtlas Shariah audit showing explicit insufficient-data states" width="820">
 </p>
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas dark mode product poster" width="88%">
-    </td>
-    <td width="50%" align="center">
-      <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas light mode overview poster" width="88%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Dark mode showcase</strong></td>
-    <td align="center"><strong>Light mode showcase</strong></td>
-  </tr>
-</table>
+The screening interface exposes unavailable evidence and the implemented methodology's limitations. It does not present an automated result as a fatwa or replace qualified scholarly advice.
+
+### v1.1 Account Data Controls
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas light mode analytics poster" width="640">
+  <img src="screenshots/v1.1-account-data-controls.png" alt="InvestAtlas account data controls for an isolated Local Workspace" width="820">
 </p>
 
-### Halal / Shariah Audit For Muslim Investors
+Anonymous Local Workspace data and signed-in Firebase cloud data have an explicit boundary. Moving data is a deliberate export/sign-in/import action rather than a risky automatic migration.
+
+### v1.1 Arabic / RTL on iPhone
 
 <p align="center">
-  <img src="screenshots/shariah-audit.png" alt="Shariah audit asset universe" width="760">
+  <img src="screenshots/v1.1-mobile-arabic-rtl.png" alt="InvestAtlas Arabic RTL portfolio and Shariah health view on an iPhone viewport" width="390">
 </p>
 
-The Shariah audit area is designed for Muslim investors who want clearer visibility into Halal/Shariah-oriented asset screening. It is informational only and does not replace qualified scholarly advice.
+Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
 
-### Analytics Allocation
+## 🧾 Release History
 
-<p align="center">
-  <img src="screenshots/analytics-allocation.png" alt="Analytics allocation breakdown" width="760">
-</p>
+### v1.1.0 — Core Integrity
 
-### Tax & Purification
+- Consolidated authenticated cloud data on Firebase while keeping an isolated anonymous Local Workspace.
+- Added deliberate account export/import and safer Local-to-Cloud transfer behavior.
+- Made multi-currency calculations fail closed when a trustworthy FX conversion is unavailable.
+- Strengthened Firestore ownership rules, API boundaries, security headers, account deletion, and encrypted AI-key handling.
+- Corrected Strategy Lab calculations, quote provenance, historical-data parsing, and precious-metal fineness handling.
+- Completed synchronized English/Arabic trust and error states plus desktop/mobile validation.
 
-<p align="center">
-  <img src="screenshots/tax-and-purification.png" alt="Tax and purification overview" width="700">
-</p>
+### v1.0.1 — Security & Trust Patch
 
-The tax area is positioned as country-aware tax awareness. A user should be able to use their own country/residence assumptions instead of being limited to one country.
+An internal security milestone completed before v1.1.0 and included in the public v1.1.0 release:
 
-### Settings
+- Closed unsafe mutation, debug, SSRF, path-traversal, runtime-code-generation, and URL-triggered deletion paths.
+- Enforced immutable Firestore ownership and removed browser-readable AI-key handling.
+- Removed AI-generated fundamentals and replaced Shariah fail-open behavior with explicit uncertainty states.
+- Corrected purification missing-versus-zero handling, unsafe FX assumptions, oversell behavior, and partial-data presentation.
+- Disabled GA4 for the public Demo.
 
-<p align="center">
-  <img src="screenshots/settings.png" alt="Settings and app preferences" width="700">
-</p>
+### v1.0.0 — Public Prototype
+
+Established the original multi-asset portfolio, charts, analytics, Strategy Lab, purification, AI-assisted workflows, bilingual UI, and responsive PWA foundation.
 
 ## 🛠️ Tech Stack Overview
 
@@ -133,6 +130,7 @@ The private production app is built with:
 - Firebase Auth
 - Firestore
 - Recharts
+- Progressive Web App capabilities
 
 This public repository intentionally does not include implementation files, build scripts, environment files, API routes, or private configuration.
 
@@ -162,6 +160,6 @@ Not included here:
 
 ## ⚠️ Disclaimer
 
-InvestAtlas is a prototype and portfolio project.
+InvestAtlas is a public Demo/Showcase and portfolio project, not a broker, paid financial product, or investment-advisory service.
 
-It does not provide financial advice, investment advice, tax advice, legal advice, or religious advice. All calculations, country-specific tax assumptions, Shariah-related checks, Halal screening outputs, analytics, and AI-assisted outputs should be treated as informational only.
+It does not provide financial, investment, tax, legal, or religious advice. Calculations, country-specific tax assumptions, Shariah-related checks, analytics, and AI-assisted interpretations are informational only. Screening states describe the implemented methodology and available evidence—not a binding religious ruling.
