@@ -70,29 +70,33 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
-### v1.1 Shariah Trust States
+### v1.1 Product Overview
 
 <p align="center">
-  <img src="screenshots/v1.1-shariah-trust-states.png" alt="InvestAtlas Shariah audit showing explicit insufficient-data states" width="820">
+  <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas v1.1 portfolio overview in light mode with a 3D iPhone presentation" width="720">
+</p>
+
+### v1.1 Trust Layer & Dark Mode
+
+<p align="center">
+  <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas v1.1 dark-mode trust layer with English and Arabic mobile views" width="720">
 </p>
 
 The screening interface exposes unavailable evidence and the implemented methodology's limitations. It does not present an automated result as a fatwa or replace qualified scholarly advice.
 
-### v1.1 Account Data Controls
+### v1.1 Analytics
 
 <p align="center">
-  <img src="screenshots/v1.1-account-data-controls.png" alt="InvestAtlas account data controls for an isolated Local Workspace" width="820">
+  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas v1.1 portfolio analytics and allocation with a 3D iPhone presentation" width="720">
 </p>
 
-Anonymous Local Workspace data and signed-in Firebase cloud data have an explicit boundary. Moving data is a deliberate export/sign-in/import action rather than a risky automatic migration.
-
-### v1.1 Arabic / RTL on iPhone
+### Light, Dark & Arabic / RTL
 
 <p align="center">
-  <img src="screenshots/v1.1-mobile-arabic-rtl.png" alt="InvestAtlas Arabic RTL portfolio and Shariah health view on an iPhone viewport" width="390">
+  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas v1.1 responsive light and dark interfaces with Arabic RTL on a 3D iPhone" width="720">
 </p>
 
-Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
+The poster set uses current illustrative v1.1 Local Workspace data. Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
 
 ## 🧾 Release History
 
