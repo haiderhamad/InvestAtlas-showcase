@@ -8,9 +8,9 @@ InvestAtlas is a public Demo/Showcase built with production-quality engineering.
 
 InvestAtlas helps Muslim investors understand what a transparent, implemented screening methodology says about their portfolio: compliant, non-compliant, review required, or insufficient data. Missing evidence never becomes a positive result.
 
-Around that trust-first core, the app combines portfolio tracking, allocation analytics, country-aware tax awareness, technical strategy tools, purification support, optional AI interpretation, and bilingual desktop/mobile experiences.
+Around that trust-first core, the app combines portfolio tracking, allocation analytics, country-aware tax awareness, technical strategy tools, purification support, optional AI interpretation, and multilingual desktop/mobile experiences.
 
-Current public release: **v1.2.0 — Financial Data Foundation**
+Current public release: **v1.2.1 — Provider Truth & AI Key UX Patch**
 
 ## 🧭 Product Priorities
 
@@ -37,7 +37,7 @@ Current public release: **v1.2.0 — Financial Data Foundation**
 | 🧭 Demo Snapshot | Explore a dated, read-only synthetic portfolio that never enters personal calculations |
 | 🔎 Financial Data Trust | Keep source, currency, freshness, calculation, partial-data, and unavailable states visible |
 | ☁️ Demo, Local, or Cloud | Use the isolated showcase, an editable browser workspace, or Firebase as the signed-in cloud path |
-| 🌐 Bilingual UI | Use English/LTR or Arabic/RTL across desktop and mobile |
+| 🌐 Multilingual UI | Use English/LTR, selectable German/LTR, or Arabic/RTL; broader German linguistic QA remains ongoing |
 
 ## 🤖 Ask AI With User-Owned API Keys
 
@@ -50,8 +50,9 @@ Possible providers:
 | Gemini | Google Gemini API access for general AI explanations |
 | Groq | Fast inference with documented free-plan limits |
 | OpenRouter | Access to many models, including free model routes where available |
+| OpenAI | Direct OpenAI API access with optional organization/project metadata |
 
-AI can explain existing portfolio information, allocation, risk, strategy calculations, momentum, SMA crossovers, and planning context. AI output is interpretation—not sourced financial data—and must not be treated as financial advice.
+AI can explain existing portfolio information, allocation, risk, strategy calculations, momentum, SMA crossovers, and planning context. AI output is interpretation—not sourced financial data—and must not be treated as financial advice. Arbitrary custom AI URLs remain disabled; supported providers use fixed, server-controlled endpoints.
 
 ## 🚀 How To Start
 
@@ -77,35 +78,44 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
-### v1.2 Demo Snapshot Overview
+### v1.2.1 Demo Snapshot Overview
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas v1.2 read-only synthetic Demo Snapshot and hosted provider transparency in light mode with a 3D iPhone presentation" width="720">
+  <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas v1.2.1 read-only synthetic Demo Snapshot and hosted provider transparency in light mode with a 3D iPhone presentation" width="720">
 </p>
 
-### v1.2 Financial Data Trust & Dark Mode
+### v1.2.1 Financial Data Trust & Dark Mode
 
 <p align="center">
-  <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas v1.2 financial-data provenance and fail-closed states in dark mode with an Arabic RTL 3D iPhone view" width="720">
+  <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas v1.2.1 financial-data provenance and fail-closed states in dark mode with an Arabic RTL 3D iPhone view" width="720">
 </p>
 
 The screening interface exposes unavailable evidence and the implemented methodology's limitations. It does not present an automated result as a fatwa or replace qualified scholarly advice.
 
-### v1.2 Market Context
+### v1.2.1 Market Context
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas v1.2 visibly synthetic and dated charts and indicators with a 3D iPhone presentation" width="720">
+  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas v1.2.1 visibly synthetic and dated charts and indicators with a 3D iPhone presentation" width="720">
 </p>
 
-### Light, Dark & Arabic / RTL
+### Light, Dark & Multilingual UI
 
 <p align="center">
-  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas v1.2 responsive light and dark interfaces with English LTR and Arabic RTL on 3D iPhone presentations" width="720">
+  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas v1.2.1 responsive light and dark interfaces with English LTR, selectable German, and Arabic RTL on 3D iPhone presentations" width="720">
 </p>
 
-The poster set uses the current v1.2 read-only Demo Snapshot and real hosted-provider policy UI. All holdings and charts shown are synthetic and dated. Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
+The poster set uses the current v1.2.1 Production UI, read-only Demo Snapshot, and real hosted-provider policy. All holdings and charts shown are synthetic and dated. English and Arabic/RTL are shown directly; German is selectable, while broader German linguistic and mobile QA remains planned.
 
 ## 🧾 Release History
+
+### v1.2.1 — Provider Truth & AI Key UX Patch
+
+- Replaced an impossible hosted financial-provider Connect prompt with honest, runtime-aware availability guidance.
+- Distinguished active, local-engineering-only, and disabled provider states; hosted stock and crypto prices remain unavailable rather than being guessed.
+- Clarified optional personal AI-key support for OpenAI, Gemini, Groq, and OpenRouter through fixed server-controlled provider endpoints.
+- Removed dormant custom URLs from browser-safe metadata and strengthened secret-free logging and route-level SSRF boundaries.
+- Added focused English/German/Arabic, RTL, accessibility, Preview, Production, and independent security verification.
+- Refreshed the compact four-poster presentation from the real v1.2.1 Production UI without accumulating raw screenshots.
 
 ### v1.2.0 — Financial Data Foundation
 
