@@ -10,7 +10,7 @@ InvestAtlas helps Muslim investors understand what a transparent, implemented sc
 
 Around that trust-first core, the app combines portfolio tracking, allocation analytics, country-aware tax awareness, technical strategy tools, purification support, optional AI interpretation, and bilingual desktop/mobile experiences.
 
-Current public release: **v1.1.0 — Core Integrity**
+Current public release: **v1.2.0 — Financial Data Foundation**
 
 ## 🧭 Product Priorities
 
@@ -34,7 +34,9 @@ Current public release: **v1.1.0 — Core Integrity**
 | 🧪 Strategy Lab | Explore SMA, Dual-SMA, momentum, Golden Cross, Death Cross, and backtesting concepts |
 | 🎯 Crypto Plan | Plan savings/DCA allocation from budget, ATH drawdown, and AI-assisted reasoning |
 | 🤖 Ask AI | Connect a user-owned AI provider through masked, server-managed key metadata |
-| ☁️ Cloud or Local | Use Firebase as the signed-in cloud path or an isolated anonymous Local Workspace |
+| 🧭 Demo Snapshot | Explore a dated, read-only synthetic portfolio that never enters personal calculations |
+| 🔎 Financial Data Trust | Keep source, currency, freshness, calculation, partial-data, and unavailable states visible |
+| ☁️ Demo, Local, or Cloud | Use the isolated showcase, an editable browser workspace, or Firebase as the signed-in cloud path |
 | 🌐 Bilingual UI | Use English/LTR or Arabic/RTL across desktop and mobile |
 
 ## 🤖 Ask AI With User-Owned API Keys
@@ -54,13 +56,18 @@ AI can explain existing portfolio information, allocation, risk, strategy calcul
 ## 🚀 How To Start
 
 1. Open the InvestAtlas demo link.
-2. Create an account or sign in.
-3. Go to **Settings → AI Providers**.
-4. Add your own API key from a supported provider.
-5. Test and save the provider.
-6. Use **Ask AI**, **Strategy**, **Crypto Plan**, or AI-assisted import features.
+2. Review and accept the linked Demo terms, privacy information, and financial-data limitations.
+3. Explore the read-only **Demo Snapshot**, or start a separate editable **Local Workspace**.
+4. Sign in only when you want a Firebase-backed personal workspace or optional AI interpretation.
+5. Add a supported user-owned AI key in Settings if you want to use AI-assisted features.
 
-The core portfolio Demo remains usable without an AI key.
+The core Demo remains usable without an account, AI key, or financial-data key.
+
+## 🧭 Financial Data Transparency
+
+v1.2 introduces a field-level trust model for availability, source, currency, freshness, observation date, and calculated values. Missing information remains unavailable instead of being replaced with a plausible estimate.
+
+The public hosted release intentionally activates only official European Central Bank reference FX. Shared stock and crypto quote/history providers remain disabled while display, proxy, permission, or redistribution rights are unresolved. A Tiingo BYOK adapter exists for local engineering, but hosted connection and market-data display remain disabled pending written rights clarification. The signed-out Demo Snapshot stays useful through clearly labelled, dated synthetic examples that are isolated from personal data.
 
 ## 🧪 Strategy And Savings-Plan Intelligence
 
@@ -70,35 +77,46 @@ The Crypto Plan / savings-plan area can use budget, selected assets, all-time-hi
 
 ## 🖼️ Screenshots
 
-### v1.1 Product Overview
+### v1.2 Demo Snapshot Overview
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas v1.1 portfolio overview in light mode with a 3D iPhone presentation" width="720">
+  <img src="screenshots/poster-light-mode-overview.png" alt="InvestAtlas v1.2 read-only synthetic Demo Snapshot and hosted provider transparency in light mode with a 3D iPhone presentation" width="720">
 </p>
 
-### v1.1 Trust Layer & Dark Mode
+### v1.2 Financial Data Trust & Dark Mode
 
 <p align="center">
-  <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas v1.1 dark-mode trust layer with English and Arabic mobile views" width="720">
+  <img src="screenshots/poster-dark-mode.png" alt="InvestAtlas v1.2 financial-data provenance and fail-closed states in dark mode with an Arabic RTL 3D iPhone view" width="720">
 </p>
 
 The screening interface exposes unavailable evidence and the implemented methodology's limitations. It does not present an automated result as a fatwa or replace qualified scholarly advice.
 
-### v1.1 Analytics
+### v1.2 Market Context
 
 <p align="center">
-  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas v1.1 portfolio analytics and allocation with a 3D iPhone presentation" width="720">
+  <img src="screenshots/poster-light-mode-analytics.png" alt="InvestAtlas v1.2 visibly synthetic and dated charts and indicators with a 3D iPhone presentation" width="720">
 </p>
 
 ### Light, Dark & Arabic / RTL
 
 <p align="center">
-  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas v1.1 responsive light and dark interfaces with Arabic RTL on a 3D iPhone" width="720">
+  <img src="screenshots/poster-light-dark-compare.png" alt="InvestAtlas v1.2 responsive light and dark interfaces with English LTR and Arabic RTL on 3D iPhone presentations" width="720">
 </p>
 
-The poster set uses current illustrative v1.1 Local Workspace data. Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
+The poster set uses the current v1.2 read-only Demo Snapshot and real hosted-provider policy UI. All holdings and charts shown are synthetic and dated. Arabic is a first-class interface language with RTL layout and explicit Shariah status terminology.
 
 ## 🧾 Release History
+
+### v1.2.0 — Financial Data Foundation
+
+- Added field-level availability, source, currency, freshness, quality, and provenance contracts.
+- Added official ECB EUR/USD reference FX with attribution and fail-closed freshness handling.
+- Added a deterministic, dated, read-only synthetic Demo Snapshot, isolated from Local and Firebase workspaces.
+- Prevented synthetic Demo values from entering personal P&L, valuation, history, or portfolio calculations.
+- Added transparent hosted-provider catalog and English/Arabic Terms, Privacy, and Financial Data Disclaimer surfaces.
+- Added an encrypted Financial Provider vault and a locally testable Tiingo BYOK adapter; hosted Tiingo use remains disabled pending written rights clarification.
+- Hardened market-data boundaries against redirects, arbitrary hosts, oversized or malformed responses, stale/incomplete history, secret exposure, and cross-user state.
+- Completed desktop, Arabic/RTL mobile, iPhone Safari, build, test, dependency, and independent security review.
 
 ### v1.1.0 — Core Integrity
 
